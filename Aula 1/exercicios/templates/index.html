@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Sinais Futurista</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerador de Sinais</h1>
+        <form id="signalForm">
+            <label for="signal_type">Selecione o tipo de sinal:</label>
+            <select id="signal_type" name="signal_type" onchange="updateParams()">
+                <option value="impulso">Impulso Unitário</option>
+                <option value="degrau">Degrau Unitário</option>
+                <option value="senoidal">Sequência Senoidal</option>
+                <option value="exponencial">Sequência Exponencial</option>
+            </select>
+
+            <div id="params">
+                <!-- Os parâmetros específicos aparecerão aqui -->
+            </div>
+
+            <label for="Fs">Frequência de Amostragem (Hz):</label>
+            <input type="number" name="Fs" id="Fs" required step="any">
+
+            <label for="window_time">Tempo da Janela (segundos):</label>
+            <input type="number" name="window_time" id="window_time" required step="any">
+
+            <button type="button" onclick="generateSignal()">Gerar Sinal</button>
+        </form>
+        <div id="output">
+            <img id="signalImage" src="" alt="O sinal gerado aparecerá aqui">
+            <button id="saveButton" style="display: none;" onclick="saveSignal()">Salvar Sinal</button>
+        </div>
+    </div>
+
+    <script>
+        let currentSignalData = null;
+
+        function updateParams() {
+            const signalType = document.getElementById('signal_type').value;
+            const paramsDiv = document.getElementById('params');
+            paramsDiv.innerHTML = '';  // Clear previous parameters
+
+            if (signalType === 'impulso' || signalType === 'degrau') {
+                paramsDiv.innerHTML = `
+                    <label for="n0">n0 (posição):</label>
+                    <input type="number" name="n0" id="n0" required step="any">
+                `;
+            } else if (signalType === 'senoidal') {
+                paramsDiv.innerHTML = `
+                    <label for="f">Frequência f (Hz):</label>
+                    <input type="number" name="f" id="f" required step="any">
+                `;
+            } else if (signalType === 'exponencial') {
+                paramsDiv.innerHTML = `
+                    <label for="A">Amplitude A:</label>
+                    <input type="number" name="A" id="A" required step="any">
+                    <label for="a">Parâmetro a:</label>
+                    <input type="number" name="a" id="a" required step="any">
+                `;
+            }
+        }
+
+        function generateSignal() {
+            const form = document.getElementById('signalForm');
+            const formData = new FormData(form);
+
+            fetch('/generate', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('signalImage').src = data.img_url;
+                document.getElementById('signalImage').alt = "Sinal gerado";
+                currentSignalData = data;  // Armazena os dados do sinal gerado
+                document.getElementById('saveButton').style.display = 'inline-block';
+            })
+            .catch(error => console.error('Error:', error));
+        }
+
+        function saveSignal() {
+            fetch('/save', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(currentSignalData)
+            })
+            .then(response => response.json())
+            .then(data => {
+                alert(data.message);
+                document.getElementById('signalImage').src = data.img_url;  // Atualiza a imagem para a versão salva
+                document.getElementById('signalImage').alt = "Sinal salvo e exibido";
+            })
+            .catch(error => console.error('Error:', error));
+        }
+
+        updateParams();  // Call this function on page load to set the initial parameters
+    </script>
+</body>
+</html>

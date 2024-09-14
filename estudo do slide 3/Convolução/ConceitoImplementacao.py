@@ -1,12 +1,14 @@
 import numpy as np
 import matplotlib.pyplot as plt
-
+# Gerando impulso unitário
+n = np.arange(0, 11)
+impulso = np.where(n == 5, 1, 0)
 # Definindo as sequências x[k] e h[k]
-x = [1, 1, 1, 1, 1, 1]
-h = [1, 0.5, 0.25, 0.125]
+x = impulso
+h = [0.1, 0.2, 0.4, 0.2,0.1]
 
 # Calculando a convolução
-y = np.convolve(x, h)
+y = np.convolve( h,x)
 
 # Plotando o resultado da convolução
 plt.figure()

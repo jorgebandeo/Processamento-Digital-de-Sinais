@@ -47,6 +47,12 @@ w, h = freqz(b, a, fs=Fs)
 
 # Convertendo a resposta em dB
 h_db = 20 * np.log10(abs(h))
+print(b0)
+print(b1)
+print(b2)
+print(a1)
+print(a2)
+
 
 # Plotando a resposta em frequência
 plt.plot(w, h_db)

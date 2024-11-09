@@ -16,8 +16,11 @@ a_analog = [1, wc]
 
 # Aplicando a transformação bilinear para obter o filtro digital
 a_digital, b_digital = bilinear(b_analog, a_analog, fs)
+# Exibindo os coeficientes e os pólos/zeros
+print("Coeficientes do filtro passa-alta digital H(z):")
+print("Numerador (b):", b_digital)
+print("Denominador (a):", a_digital)
 
-print(str(a_digital[1]) + " ---- " + str(b_digital[1]))
 # Calculando a resposta em frequência
 w, h = freqz(a_digital, b_digital, worN=8000)
 
@@ -25,6 +28,8 @@ f_hz = (w * fs) / (2 * np.pi)
 
 # Plotando pólos e zeros
 zeros, poles, _ = tf2zpk(b_digital, a_digital)
+print("\nZeros:", zeros)
+print("Pólos:", poles)
 plt.figure()
 plt.plot(np.real(zeros), np.imag(zeros), 'o', label='Zeros')
 plt.plot(np.real(poles), np.imag(poles), 'x', label='Pólos')

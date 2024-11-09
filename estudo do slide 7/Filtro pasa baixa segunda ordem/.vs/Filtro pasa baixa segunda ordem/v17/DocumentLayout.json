@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jorge\\Desktop\\Processamento-Digital-de-Sinais\\estudo do slide 7\\Filtro pasa baixa segunda ordem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6602C9C5-8469-481D-95B0-AC6C35E63ADC}|Filtro pasa baixa segunda ordem\\Filtro pasa baixa segunda ordem.vcxproj|C:\\Users\\jorge\\Desktop\\Processamento-Digital-de-Sinais\\estudo do slide 7\\Filtro pasa baixa segunda ordem\\Filtro pasa baixa segunda ordem\\Filtro pasa baixa segunda ordem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6602C9C5-8469-481D-95B0-AC6C35E63ADC}|Filtro pasa baixa segunda ordem\\Filtro pasa baixa segunda ordem.vcxproj|solutionrelative:Filtro pasa baixa segunda ordem\\Filtro pasa baixa segunda ordem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Filtro pasa baixa segunda ordem.cpp",
+              "DocumentMoniker": "C:\\Users\\jorge\\Desktop\\Processamento-Digital-de-Sinais\\estudo do slide 7\\Filtro pasa baixa segunda ordem\\Filtro pasa baixa segunda ordem\\Filtro pasa baixa segunda ordem.cpp",
+              "RelativeDocumentMoniker": "Filtro pasa baixa segunda ordem\\Filtro pasa baixa segunda ordem.cpp",
+              "ToolTip": "C:\\Users\\jorge\\Desktop\\Processamento-Digital-de-Sinais\\estudo do slide 7\\Filtro pasa baixa segunda ordem\\Filtro pasa baixa segunda ordem\\Filtro pasa baixa segunda ordem.cpp",
+              "RelativeToolTip": "Filtro pasa baixa segunda ordem\\Filtro pasa baixa segunda ordem.cpp",
+              "ViewState": "AQIAACsAAAAAAAAAAAAuwEEAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-09T02:14:16.822Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -204,7 +204,7 @@ def aplica_filtro_passa_alta(signal, Fc=1000, Fs=8000):
 
 Fs=8000
 Fc=1000
-Fb=30
+Fb=300
 
 # Exemplo de uso
 file_path = 'sweep_20_2k.pcm'

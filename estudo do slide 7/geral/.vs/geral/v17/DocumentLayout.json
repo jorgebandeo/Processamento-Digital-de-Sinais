@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jorge\\Desktop\\Processamento-Digital-de-Sinais\\estudo do slide 7\\geral\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF8EF73-BCDF-4A3E-8FB1-70AC01FD07D9}|geral\\geral.vcxproj|C:\\Users\\jorge\\Desktop\\Processamento-Digital-de-Sinais\\estudo do slide 7\\geral\\geral\\geral.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2AF8EF73-BCDF-4A3E-8FB1-70AC01FD07D9}|geral\\geral.vcxproj|solutionrelative:geral\\geral.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "geral.cpp",
+              "DocumentMoniker": "C:\\Users\\jorge\\Desktop\\Processamento-Digital-de-Sinais\\estudo do slide 7\\geral\\geral\\geral.cpp",
+              "RelativeDocumentMoniker": "geral\\geral.cpp",
+              "ToolTip": "C:\\Users\\jorge\\Desktop\\Processamento-Digital-de-Sinais\\estudo do slide 7\\geral\\geral\\geral.cpp",
+              "RelativeToolTip": "geral\\geral.cpp",
+              "ViewState": "AQIAAAsBAAAAAAAAAADwvy0BAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-09T02:19:42.399Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

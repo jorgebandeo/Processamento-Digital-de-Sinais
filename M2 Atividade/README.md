@@ -101,10 +101,10 @@ Projetar um filtro FIR Passa-Alta utilizando a técnica de janelamento para redu
 
 6. **Teste com sinal senoidal de 200 Hz:**
    - **Geração do sinal:** 
-         ![Espectrograma do Ruído](/filtro_FIR_Sinc_janelado_Passa_Alta/Resultados%20Seno%20de%20200Hz/sinais_entrada_saida.png)
+         ![Espectrograma do Ruído](filtro_FIR_Sinc_janelado_Passa_Alta/Resultados%20Seno%20de%20200Hz/sinais_entrada_saida.png)
    - **Sinal de saída processado pelo filtro:** [x] Sim / [ ] Não
    - Atenuação calculada em dB: -9,91 dB
-            ![Espectrograma do Ruído](/filtro_FIR_Sinc_janelado_Passa_Alta/Resultados%20Seno%20de%20200Hz/Captura%20de%20pantalla%202024-11-16%20155423.png) 
+            ![Espectrograma do Ruído](filtro_FIR_Sinc_janelado_Passa_Alta/Resultados%20Seno%20de%20200Hz/Captura%20de%20pantalla%202024-11-16%20155423.png) 
 
 ---
 

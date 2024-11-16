@@ -20,10 +20,10 @@ Projetar um filtro média móvel para reduzir os *spikes* presentes no arquivo `
 ### **Passos**
 1. **Resposta em frequência do filtro e polos e zeros (8 coeficientes):**
    - **Gráfico da resposta em frequência:** 
-      ![Espectrograma do Ruído](/MM/Resultados/Resposta_Frequencia/Resposta_Frequencia_Filtro_8.png)
+      ![Espectrograma do Ruído](MM/Resultados/Resposta_Frequencia/Resposta_Frequencia_Filtro_8.png)
 
    - **Gráfico de polos e zeros:** 
-      ![Espectrograma do Ruído](/MM/Resultados/Polos_Zeros/Polos_Zeros_Filtro_8.png)
+      ![Espectrograma do Ruído](MM/Resultados/Polos_Zeros/Polos_Zeros_Filtro_8.png)
 
 2. **Atenuação em dB nas frequências de 100 Hz e 1 kHz:**
    - Frequência de 100 Hz: -0,14 dB
@@ -32,7 +32,7 @@ Projetar um filtro média móvel para reduzir os *spikes* presentes no arquivo `
 3. **Programa em Python para aplicar o filtro:**
    - Código desenvolvido? [x] Sim / [ ] Não
    - Gráficos dos sinais de entrada e saída para diferentes tamanhos de filtro: 
-         ![Espectrograma do Ruído](/MM/Resultados/Entrada_Saida/Entrada_Saida_Filtro_17.png)
+         ![Espectrograma do Ruído](MM/Resultados/Entrada_Saida/Entrada_Saida_Filtro_17.png)
 4. **Identificação do tamanho do filtro MM ideal:**
    - Qual o tamanho que oferece maior redução dos *spikes* sem comprometer o sinal de interesse? 
    17
@@ -49,13 +49,13 @@ Projetar um filtro IIR Rejeita-Faixa para reduzir o ruído presente no arquivo `
 1. **Identificação da frequência do ruído via Espectrograma no “Ocenaudio”:**
    - Frequência identificada:
 
-   ![Espectrograma do Ruído](/IIR_Rejeita_Faixa/Espectrograma%20do%20Ocenaudio.png)
+   ![Espectrograma do Ruído](IIR_Rejeita_Faixa/Espectrograma%20do%20Ocenaudio.png)
 
 2. **Resposta em frequência do filtro e polos e zeros:**
    - **Gráfico da resposta em frequência:** 
-      ![Espectrograma do Ruído](/IIR_Rejeita_Faixa/Reultados/resposta_frequencia.png)
+      ![Espectrograma do Ruído](IIR_Rejeita_Faixa/Reultados/resposta_frequencia.png)
    - **Gráfico de polos e zeros:**
-      ![Espectrograma do Ruído](/IIR_Rejeita_Faixa/Reultados/polos_zeros.png)
+      ![Espectrograma do Ruído](IIR_Rejeita_Faixa/Reultados/polos_zeros.png)
 3. **Atenuação em dB nas frequências de 200 Hz e 1 kHz:**
    - Frequência de 200 Hz: 0 dB
    - Frequência de 1 kHz: 0 dB
@@ -63,7 +63,7 @@ Projetar um filtro IIR Rejeita-Faixa para reduzir o ruído presente no arquivo `
 4. **Programa em Python para aplicar o filtro:**
    - Código desenvolvido? [x] Sim / [ ] Não
    - Sinal de saída salvo em `Sai_M2_voz_ruido.pcm`: [x] Sim / [ ] Não
-   ![Espectrograma do Ruído](/IIR_Rejeita_Faixa/Reultados/sinais_entrada_saida.png)
+   ![Espectrograma do Ruído](IIR_Rejeita_Faixa/Reultados/sinais_entrada_saida.png)
 
 5. **Programa em C para aplicar o filtro:**
    - Código desenvolvido? [x] Sim / [ ] Não
@@ -79,9 +79,9 @@ Projetar um filtro FIR Passa-Alta utilizando a técnica de janelamento para redu
 ### **Passos**
 1. **Resposta em frequência do filtro e polos e zeros:**
    - **Gráfico da resposta em frequência:** 
-      ![Espectrograma do Ruído](/filtro_FIR_Sinc_janelado_Passa_Alta/Resultados%20Voz%20com%20Ruido/resposta_frequencia_fir.png)
+      ![Espectrograma do Ruído](filtro_FIR_Sinc_janelado_Passa_Alta/Resultados%20Voz%20com%20Ruido/resposta_frequencia_fir.png)
    - **Gráfico de polos e zeros:** 
-      ![Espectrograma do Ruído](/filtro_FIR_Sinc_janelado_Passa_Alta/Resultados%20Voz%20com%20Ruido/polos_zeros_fir.png)
+      ![Espectrograma do Ruído](filtro_FIR_Sinc_janelado_Passa_Alta/Resultados%20Voz%20com%20Ruido/polos_zeros_fir.png)
 2. **Atenuação em dB nas frequências de 100 Hz e 1 kHz:**
    - Frequência de 100 Hz: -64,03 dB
    - Frequência de 1 kHz: 0 dB
@@ -89,7 +89,7 @@ Projetar um filtro FIR Passa-Alta utilizando a técnica de janelamento para redu
 3. **Programa em Python para aplicar o filtro:**
    - Código desenvolvido? [x] Sim / [ ] Não
    - Sinal de saída salvo em `Sai_Q3_voz_ruido.pcm`: [x] Sim / [ ] Não
-         ![Espectrograma do Ruído](/filtro_FIR_Sinc_janelado_Passa_Alta/Resultados%20Voz%20com%20Ruido/sinais_entrada_saida.png)
+         ![Espectrograma do Ruído](filtro_FIR_Sinc_janelado_Passa_Alta/Resultados%20Voz%20com%20Ruido/sinais_entrada_saida.png)
 4. **Parâmetros do filtro FIR ideal:**
    - Número de coeficientes utilizado: 301
    - Tipo de janela utilizada: Hamming

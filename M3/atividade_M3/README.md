@@ -21,7 +21,7 @@ Este README serve como guia para a execução e resposta das questões apresenta
    - Valores que fazem o algoritmo convergir.
 
 **Adicione a Imagem do Gráfico**:
-![Gráfico da Questão 1.a](/questao_1/letra%20a/resultados_u1.0e-10_K100.png)
+![Gráfico da Questão 1.a](questao_1/letra%20a/resultados_u1.0e-10_K100.png)
 
 ---
 
@@ -32,7 +32,7 @@ Este README serve como guia para a execução e resposta das questões apresenta
    - Validação no Ocenaudio ou Python.
 
 **Adicione a Imagem da Validação**:
-![Validação da Questão 1.b](/questao_1/letra%20b/Captura%20de%20pantalla%202024-12-14%20101036.png)
+![Validação da Questão 1.b](questao_1/letra%20b/Captura%20de%20pantalla%202024-12-14%20101036.png)
 
 ---
 
@@ -43,7 +43,7 @@ Este README serve como guia para a execução e resposta das questões apresenta
    - Validação no Ocenaudio ou Python.
 
 **Adicione a Imagem da Validação**:
-![Validação da Questão 1.c](/questao_1/letra_c/Captura%20de%20pantalla%202024-12-14%20101109.png)
+![Validação da Questão 1.c](questao_1/letra_c/Captura%20de%20pantalla%202024-12-14%20101109.png)
 
 ---
 
@@ -65,7 +65,7 @@ Este README serve como guia para a execução e resposta das questões apresenta
    - Valores para convergência.
 
 **Adicione a Imagem do Gráfico**:
-![Gráfico da Questão 2.b](/questao_2/letra%20b/resultados_u1.0e-10_K10.png)
+![Gráfico da Questão 2.b](questao_2/letra%20b/resultados_u1.0e-10_K10.png)
 
 ---
 
@@ -76,7 +76,7 @@ Este README serve como guia para a execução e resposta das questões apresenta
    - Validação no Ocenaudio ou Python.
 
 **Adicione a Imagem da Validação**:
-![Validação da Questão 2.c](/questao_2/letra%20c/Captura%20de%20pantalla%202024-12-14%20101133.png)
+![Validação da Questão 2.c](questao_2/letra%20c/Captura%20de%20pantalla%202024-12-14%20101133.png)
 
 ---
 
@@ -87,7 +87,7 @@ Este README serve como guia para a execução e resposta das questões apresenta
    - Validação no Ocenaudio ou Python.
 
 **Adicione a Imagem da Validação**:
-![Validação da Questão 2.d](/questao_2/letra_d/Captura%20de%20pantalla%202024-12-14%20101201.png)
+![Validação da Questão 2.d](questao_2/letra_d/Captura%20de%20pantalla%202024-12-14%20101201.png)
 
 
 ### **3. Otimização e Medição de Desempenho no VisualDSP**
@@ -108,7 +108,7 @@ Este README serve como guia para a execução e resposta das questões apresenta
    - Validação no Ocenaudio ou Python.
 
 **Validação da Questão 3.b**:
-![Validação da Questão 3.b](/questao_3/Captura%20de%20pantalla%202024-12-14%20101214.png)
+![Validação da Questão 3.b](questao_3/Captura%20de%20pantalla%202024-12-14%20101214.png)
 
 ---
 
